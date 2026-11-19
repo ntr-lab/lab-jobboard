@@ -1,0 +1,24 @@
+{
+  "name": "lab-jobboard",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "seed": "node scripts/seed.mjs",
+    "deploy:worker": "sh scripts/deploy-worker.sh"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.119.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.2.1",
+    "vite": "8.3.5",
+    "wrangler": "4.157.0"
+  }
+}

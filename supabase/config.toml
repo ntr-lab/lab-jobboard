@@ -1,0 +1,9 @@
+# Supabase CLI settings for the lab job board. The linked project is chosen at deploy time.
+project_id = "lab-jobboard"
+
+[db]
+major_version = 17
+
+[functions.quote-total]
+# Row-level security decides access: the function reads with the caller's own token.
+verify_jwt = false
